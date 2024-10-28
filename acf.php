@@ -1,12 +1,12 @@
 <?php
 /**
- * Advanced Custom Fields
+ * Advanced Custom Fields PRO
  *
  * @package       ACF
  * @author        WP Engine
  *
  * @wordpress-plugin
- * Plugin Name:       Advanced Custom Fields
+ * Plugin Name:       Advanced Custom Fields PRO
  * Plugin URI:        https://www.advancedcustomfields.com
  * Description:       Customize WordPress with powerful, professional and intuitive fields.
  * Version:           6.3.9
