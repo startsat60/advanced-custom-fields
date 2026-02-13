@@ -1,13 +1,26 @@
 {
-  "name": "startsat60/advanced-custom-fields",
-  "description": "Advanced Custom Field Plugin",
-  "keywords": ["wordpress", "plugin", "acf"],
-  "homepage": "",
-  "license": "GPL-2.0+",
-  "type": "wordpress-plugin",
-  "minimum-stability": "dev",
-  "require": {
-    "php": ">=5.3.2"
-    }
+	"name": "wpengine/advanced-custom-fields",
+	"description": "Advanced Custom Fields",
+	"type": "wordpress-plugin",
+	"license": "GPLv2 or later",
+	"autoload": {
+		"psr-4": {
+			"ACF\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "WP Engine"
+		}
+	],
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true
+	},
+	"scripts": {
+		"post-autoload-dump": [
+			"sed -i '' \"/InstalledVersions.php/d\" vendor/composer/autoload_static.php"
+		]
+	},
+	"require": {}
 }
-
