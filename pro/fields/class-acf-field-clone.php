@@ -4,6 +4,8 @@ if ( ! class_exists( 'acf_field_clone' ) ) :
 
 	class acf_field_clone extends acf_field {
 
+		public $cloning = array();
+
 
 		/**
 		 * This function will setup the field type data
