@@ -18,7 +18,7 @@ if ( ! class_exists( 'acf_pro' ) ) :
 
 			// update setting
 			acf_update_setting( 'pro', true );
-			acf_update_setting( 'name', __( 'Advanced Custom Fields PRO', 'acf' ) );
+			acf_update_setting( 'name', 'Advanced Custom Fields PRO' );
 
 			// includes
 			acf_include( 'pro/blocks.php' );
